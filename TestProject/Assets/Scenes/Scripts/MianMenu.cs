@@ -40,7 +40,8 @@ public class MianMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        cam.transform.position = new Vector3(transform.position.x, -32, -10);
+        Application.Quit();
+        Debug.Log("Player has Quit");
         UnityEditor.EditorApplication.isPlaying = false;
     }
 }
