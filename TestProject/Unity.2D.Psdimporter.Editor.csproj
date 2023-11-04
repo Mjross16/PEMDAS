@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{08040F8A-BE5E-F84B-7CE2-9F08EB1167BF}</ProjectGuid>
+    <ProjectGuid>{7AC9A722-42E5-766D-4A63-8CE769E9B480}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -56,64 +56,27 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Utils\InspectorPropertyUtil.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\PropertyProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\DisableIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\SerializedPropertyUtility.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorPropertyGroup.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Utils\ProcessorUtil.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\ValidateInputAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\HideIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\OnValueChangedAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\EditableInspectorProperty.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\SerializeReferenceDropdown.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Editor\ElevatorEditor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\DisableInEditModeAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\LucidGUIEvent.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\NonSerializedProperty.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorField.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Utils\TypeUtil.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\TitleHeaderAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\FoldoutGroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\HelpBoxAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\PropertyOrderAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\BlockquoteAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Experimental\TextFieldPopup.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Experimental\TreeMenu.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\HorizontalGroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\LucidEditorUtility.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Experimental\SimpleTreeView.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\HorizontalLineAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Extensions\SerializedPropertyExtensions.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\HelpBoxIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\SectionHeaderAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\LucidEditorGUI.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\GUIColorAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\RequiredAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Utils\ReflectionUtil.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\AssetsOnlyAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\ShowIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\DisableInPlayModeAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorProperty.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\EditorColors.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\HideLabelAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\LabelWidthAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\TabGroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\LabelTextAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\IndentAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Editor\ChestEditor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Experimental\Toolbar.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\LucidEditorGUILayout.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\ReadOnlyAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Extensions\EnumExtensions.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\LucidEditorPrefs.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\GroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\LucidEditor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\EditorIcons.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\EnableIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\PropertyGroupProcessor.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorButton.cs" />
-    <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Editor\Attributes\BoxGroupAttributeProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\ImportUtilites.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TexturePlatformSettingsController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TexturePlatformSettingsModal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImportData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDLayerMappingStrategy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TextureSettingsGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDLayer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Analytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporterDataProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporterEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\SpriteData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\TexturePlatformSettingsView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImporterEditorLayerTreeView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\PSDImportPostProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Tasks\ExtractLayerTask.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Tasks\FlattenImageTask.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.2d.psdimporter@6.0.4\Editor\Unity.2D.Psdimporter.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -790,9 +753,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4CE07701-134F-9DD0-F36C-F385BB4D61DF}</Project>
-      <Name>Assembly-CSharp</Name>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{EEF39F6A-CE79-F661-92F3-1D6507153AE3}</Project>
+      <Name>PsdPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{108AB3F0-9006-0F5F-B694-A4CBB0C091F2}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{CF0F01BB-2FDC-6A6E-4704-88CB306208E4}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+      <Project>{12C79329-104A-0A24-CB55-50EB1A3D1C42}</Project>
+      <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
+      <Project>{246CFD31-B33E-A696-2ED7-CA04933FD641}</Project>
+      <Name>Unity.2D.Animation.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{B2273144-3B71-049E-32FA-36EC1C02E860}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{F9D76BF4-B42F-AFB4-CD9F-812DDB6940DC}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{6AABDA28-5ED2-2271-B7C2-B8756B96FF3D}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{68434628-50D6-5C1D-4AFD-02A4FCD73943}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{020C7D5B-C064-CCE4-66D8-27A7CCEC1B3A}</Project>
@@ -801,230 +796,6 @@
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{DDBAC733-7174-26C5-9810-2F392F4D705C}</Project>
       <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{F9D76BF4-B42F-AFB4-CD9F-812DDB6940DC}</Project>
-      <Name>Unity.InternalAPIEngineBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{F778E39E-0763-53B4-6B38-E7AA9E0E0B6E}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
-      <Project>{F031F8E4-CF1D-5C66-A9C1-473DCAFDFA75}</Project>
-      <Name>Unity.2D.PixelPerfect</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{FE9065FF-EAC8-9E1A-C3DA-6D5935C9907F}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{EEF39F6A-CE79-F661-92F3-1D6507153AE3}</Project>
-      <Name>PsdPlugin</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{4BD41A65-1C78-E643-30B2-364C6A8260DE}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{22E1C1A1-5188-610A-7CF6-B86ABE17D85E}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{727B8C62-D0F3-6C29-E0B2-4B5EF6C2B846}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Editor.csproj">
-      <Project>{A8AF98A9-3A99-C688-D5A9-71BD4D965DF0}</Project>
-      <Name>Unity.2D.IK.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{D59AAC00-30AF-D6EA-AFBD-2B927D464382}</Project>
-      <Name>Unity.2D.Path.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{C6B4D113-B551-D890-AA53-312F305920A6}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{6AABDA28-5ED2-2271-B7C2-B8756B96FF3D}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{B40CC6BD-D249-ADE7-7E03-A7FCC153B0CE}</Project>
-      <Name>Unity.InputSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{F7EC2A77-5D0A-CEBE-CF92-E9D1CEE4A3E3}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{7B9D013C-8EE4-441A-1269-1430B2F14C2A}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{68434628-50D6-5C1D-4AFD-02A4FCD73943}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
-      <Project>{5ACEB461-ED34-1D1A-45B2-467E3F762785}</Project>
-      <Name>Unity.2D.IK.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{AE68AB2B-F435-9A48-7C30-C043397B4C45}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{A5E3399C-0EDC-2C37-A71F-C0BB7602D6B8}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{B3C79339-D32B-BE5E-3021-41A949FDF24D}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{CF0F01BB-2FDC-6A6E-4704-88CB306208E4}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{1475FEB1-C6EF-35B0-9631-445317586266}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{0C44766A-99E2-7D01-0ABD-C1F6B814960D}</Project>
-      <Name>Unity.2D.Tilemap.Extras</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{12C79329-104A-0A24-CB55-50EB1A3D1C42}</Project>
-      <Name>Unity.2D.Animation.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{E9E4ABD3-7C29-43F0-1A5D-5AF3C0002B4E}</Project>
-      <Name>Unity.2D.Tilemap.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{52E05AEC-A395-512A-A160-81BB49860422}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{D26261CE-C51C-1E8D-DC8F-EBB5F66643BC}</Project>
-      <Name>PPv2URPConverters</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{0B3F2906-2DD2-E29E-6AF5-5003C327A155}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{7E91EDAA-DF8A-C824-A09C-14F3FFC81A1E}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{06B9B30D-101B-756E-D41A-0651C69F3B5E}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{15D4098D-6321-034D-41FD-B5F9ADA1C6DF}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{46F2B47F-B252-B582-9597-F60FF6F2F80C}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{B2273144-3B71-049E-32FA-36EC1C02E860}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
-      <Project>{7AC9A722-42E5-766D-4A63-8CE769E9B480}</Project>
-      <Name>Unity.2D.Psdimporter.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{108AB3F0-9006-0F5F-B694-A4CBB0C091F2}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{8135E5D3-2A37-47F1-32E2-A3029240F78B}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{2A677499-A249-9D28-7601-C5C68A6BA441}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{D606C4DB-A2C9-CE59-29F6-CDB35A528AE3}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{0E1B3DB2-E34C-0707-35A9-D8E5823687AC}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{78D0828B-6125-47BF-A790-69DAEC7EA069}</Project>
-      <Name>Unity.Services.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{3C1D64A4-2327-0B98-2417-6311C0D1CE0B}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{96FCA60D-96BC-F726-0D26-4079B0753ADA}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
-      <Project>{A2C8BB6D-C669-AC70-54E8-C9C4A9B3624E}</Project>
-      <Name>Unity.Services.Core.Analytics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{7C68B7DC-45D1-B655-BBDB-A7C7BA626B93}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{7967FCB2-3CF4-04FB-D42B-9251BC4A6F45}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{90BFF547-1FCF-A809-D36C-4CBA3B7C9E04}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{2FC89800-A72F-1235-28C8-65C2C1F9F95D}</Project>
-      <Name>Unity.Services.Core.Environments</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{246CFD31-B33E-A696-2ED7-CA04933FD641}</Project>
-      <Name>Unity.2D.Animation.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
-      <Project>{C08D7802-3457-BC57-8C3B-413DA1E58AEB}</Project>
-      <Name>Unity.2D.PixelPerfect.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{C76DB032-A153-B161-219F-29025A6D06D4}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{F5116241-C634-394D-FB49-2325C3E2ACE7}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{92887838-0CAF-28BC-78EE-223270C62CE4}</Project>
-      <Name>Unity.2D.Common.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
-      <Project>{D5E3CD01-9260-81F6-CE81-517E7CE3DED9}</Project>
-      <Name>Unity.2D.SpriteShape.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{192DB29B-5E61-B740-A4BE-98F0DC133C22}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{D5CCBD9E-58A7-AF6B-27C9-05489516836E}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{85DD2C0D-A92C-1CA8-442A-43BB5FDD74A6}</Project>
-      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
